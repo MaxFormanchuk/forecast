@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background-color: #E3E8ED;
+  transition: background-color 0.3s;
+  padding: 40px 0;
+  min-height: 100vh;
+  position: relative;
+}
+.mainB{
+  display: flex;
+  width: 100%;
+}
+.mainBLeft{
+  width: 25%;
+}
+
+.mainBCenter{
+  width: 45%;
+  padding-left: 50px;
+}
+
+.leftText{
+  font-weight: 600;
+  color: black;
+  font-size: 30px;
+  padding: 25px 0;
+}
+
+.leftText span{
+  font-weight: 300;
+}
+.block{
+  display: none;
+}
+
+.mainBRight{
+  width: 25%;
+}
+
+
+@media screen and (max-width: 480px) {
+  .App {
+    width: 1333px;
+    height: 360vh;
+  }
+}
+
+/*--------------------*/
+
+.darkApp{
+  background-color: #393D58;
+  transition: background-color 0.3s;
+}
+
+.textDark{
+  color: snow;
+}
+
+
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.down{
+  width: 20%;
+  height: 25px;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.colorDownWhite{
+  color: snow;
+}
+
+.colorDownBlack{
+  color: black;
+}

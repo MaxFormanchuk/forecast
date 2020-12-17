@@ -1,0 +1,48 @@
+.form{
+  width: 40%;
+  margin: 0 auto;
+  padding: 25px;
+}
+.formDark input{
+  color: white!important;
+  background-color: #181C3A!important;
+}
+
+
+
+.form input{
+  width: 85%;
+  height: 35px;
+  padding-left: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #FFFFFF;
+  color: black;
+  border: 2px solid #7768E5;
+  outline:none;
+}
+
+
+.form button{
+  width: 15%;
+  height: 35px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #7768E5;
+  border: 2px solid #7768E5;
+  color: snow;
+  transition: all .3s;
+  outline:none;
+
+}
+
+.form button:hover{
+  background-color:inherit;
+  color: #7768E5;
+  border: 2px solid #7768E5;
+  border-left: none;
+}
+
+.error{
+  background-color: lightcoral!important;
+}

@@ -1,0 +1,131 @@
+.bodyOne{
+  width: 100%;
+  height: 100px;
+  background-color: #DDDDDD;
+  border-radius: 30px;
+  box-shadow: 0px 27px 57px 6px rgba(0,0,0,0.47);
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  outline:none;
+  margin: 0 0 25px 0;
+}
+
+.bodyOneDark{
+  background-color: #181C3A!important;
+  width: 100%;
+  height: 100px;
+  border-radius: 30px;
+  box-shadow: 0px 27px 57px 6px rgba(0,0,0,0.47);
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  outline:none;
+  margin: 0 0 25px 0;
+}
+
+.bodyOne:hover{
+  background-color: #ACACAC;
+}
+
+.bodyOneDark:hover{
+  background-color: #2B2F4D!important;
+}
+
+.leftOne{
+  width: 25%;
+  padding: 12px 0;
+}
+
+.centerOne{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 23px 0;
+}
+
+.centerOneDark{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 23px 0;
+}
+
+.centerOne span{
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.centerOne p{
+  color: black;
+  font-weight: 300;
+}
+
+
+.centerOneDark span{
+  color: snow!important;
+}
+
+.centerOneDark p{
+  color: snow!important;
+}
+
+.rightOne{
+  width: 35%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #DFE7F4;
+  text-align: center;
+  padding:35px 0;
+}
+
+.rightOneDark{
+  background-color: #21264E;
+  width: 35%;
+  height: 100%;
+  border-radius: 30px;
+  text-align: center;
+  padding:35px 0;
+}
+
+.rightOne p{
+   color: black;
+   font-weight: 400;
+   font-size: 18px;
+ }
+
+.rightOne span{
+
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.rightOneDark p{
+  color: snow!important;
+}
+
+.rightOneDark span{
+  color: snow!important;
+}
+
+.positionOne{
+  display: flex;
+  flex-direction: column;
+}
+
+.activeColor{
+  background-color: #7768E5;
+  transition: all .5s;
+}
+
+.activeColor p{
+  color: snow;
+}
+
+.imgOne{
+  height: 75px;
+  width: 75px;
+}

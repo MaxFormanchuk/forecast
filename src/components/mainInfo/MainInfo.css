@@ -1,0 +1,38 @@
+.mainInfoBody{
+  width: 100%;
+  background-color: #DDDDDD;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0px 27px 57px 6px rgba(0,0,0,0.47);
+}
+
+.mainInfoBody h1{
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+}
+
+.mainInfoBody h2{
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  padding-left: 150px;
+}
+.mainInfoBody span{
+  color: black;
+  font-size: 22px;
+}
+
+.mainInfoBodyDark{
+  background-color: #181C3A;
+}
+
+.mainInfoBodyDark h1{
+  color: snow!important;
+}
+.mainInfoBodyDark h2{
+  color: snow!important;
+}
+.mainInfoBodyDark span{
+  color: snow!important;
+}
